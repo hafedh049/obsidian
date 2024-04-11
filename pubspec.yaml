@@ -1,0 +1,36 @@
+name: obsidian
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  hive: ^2.2.3
+  icons_plus: ^5.0.0
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.0
+  flutter_flow_chart: ^2.1.4
+  star_menu: ^4.0.0
+  flutter_colorpicker: ^1.0.3
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/lotties/

@@ -20,7 +20,6 @@ class _ObsidianCanvasState extends State<ObsidianCanvas> {
 
   @override
   Widget build(BuildContext context) {
-    dashboard.setGridBackgroundParams(GridBackgroundParams())
     return Scaffold(
       body: Container(
         constraints: const BoxConstraints.expand(),
